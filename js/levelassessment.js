@@ -116,7 +116,7 @@ function SendAssessment() {
 	});
 	
 	var levelSuggestion = CalculateLevel(levels);
-	console.log("level suggestion: " + levelSuggestion);
+	alert("level suggestion: " + levelSuggestion);
 }
 
 function CalculateLevel(levels) {
